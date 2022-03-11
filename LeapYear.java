@@ -30,7 +30,7 @@ public class LeapYear {
         }
     }
 	
-	/** calculat the year %4 == 0 or % 400 == 0*/
+	/** calculat the year %4 == 0 or % 400 == 0 but not % 100 != 0*/
 	public static boolean isLeapYear(int year) {
 		
 		if ( year % 400 == 0 || year % 4 == 0 && year % 100 != 0)
