@@ -5,11 +5,12 @@ public class Collatz {
 
     /** Buggy implementation of nextNumber! */
     public static int nextNumber(int n) {
-           if (n == 128) return n;
+
+        if (n == 128) return n;
        }
 
 
-    }
+    
 
     public static void main(String[] args) {
         int n = 5;
